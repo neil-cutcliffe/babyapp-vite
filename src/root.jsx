@@ -18,9 +18,9 @@ export async function loader({ request }) {
   console.log('rootLoader()');
 //  const posts = await getPosts();
   const post =  {
-    title   : 'Title Neil Was Here Again',
-    content : 'Content Neil was here three.',
-    image   : 'url(https://babyapps.io/test-1/wp-content/uploads/sites/14/2023/01/8344BA1F-CBA1-4E95-846C-66C913A43E30-2-scaled.jpeg)'
+    title   : 'Lorem Ipsum',
+    content : 'Lorem ipsum test to be seen and not read for placement only. Lorem ipsum test to be seen.',
+    image   : 'url(/src/assets/images/SampleCard_Image.png)'
   };
   return { post };
 //  const media = await getMedia(posts[0].featured_media);
