@@ -18,8 +18,8 @@ export async function loader({ request }) {
   console.log('rootLoader()');
 //  const posts = await getPosts();
   const post =  {
-    title   : 'Title Neil 3',
-    content : 'Content Neil was here two.',
+    title   : 'Title Neil Was Here Again',
+    content : 'Content Neil was here three.',
     image   : 'url(https://babyapps.io/test-1/wp-content/uploads/sites/14/2023/01/8344BA1F-CBA1-4E95-846C-66C913A43E30-2-scaled.jpeg)'
   };
   return { post };
