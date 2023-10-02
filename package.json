@@ -23,6 +23,7 @@
     "web-vitals": "^2.1.4",
     "vite-plugin-pwa": "^0.14.7",
     "vite-plugin-svgr": "^2.4.0",
+    "ba-api": "file:node-ba-api",
     "wpapi": "^1.2.2"
   },
   "devDependencies": {
