@@ -4,6 +4,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider, StyledEngineProvider } from '@mui/material/styles';
 import questTheme from './QuestUiKitLightTheme';
 import Root, { loader as rootLoader } from "./root";
+import { baseName } from "ba-api";
 
 const router = createBrowserRouter([
   {
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
     loader: rootLoader,
   },
 ],
-  { basename: "/" }
+  { basename: baseName }
 );
 
 function App() {
